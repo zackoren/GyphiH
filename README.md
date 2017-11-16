@@ -37,6 +37,7 @@ The GET request will return the following response structure
                 "images": "https://media0.giphy.com/media/3oEdvbQ9SwvLaZTY40/giphy.gif"
             }
         ]
-    }
+    } ,
+    ....
 ]
 ```
