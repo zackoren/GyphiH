@@ -1,12 +1,6 @@
 # GyphiH
 
-Supply a location and get Gyphis containing
-
-## Getting Started
-
-These instructions will get you a copy # GyphiH
-
-API to retrieve Gyphis from a list of location. This Django base API get ‘location’ and ‘limit’ as a “GET” parameters and return a list of Gyphis. The initial supplied ‘location’ will be turn into a list of similar locations (by the use of Google Place APIs) and then each will receive a list of Gyphis limited by the ‘limit’ parameter
+GyphiH is an API to retrieve Gyphis from a list of location. This Django base API get ‘location’ and ‘limit’ as a “GET” parameters and return a list of Gyphis. The initial supplied ‘location’ will be turn into a list of similar locations (by the use of Google Place APIs) and then each will receive a list of Gyphis limited by the ‘limit’ parameter
 
 ## Getting Started & Prerequisites
 1.	Requirements:
