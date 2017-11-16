@@ -19,7 +19,7 @@ Secret file should resemble:
 
 
 ## GET request and response
-The project contains a single API (GET request) of the form-  http://address:port/api/v1/gyphi/location/limit/ - where “location” and “limit” are the parameters. Location is of type string (limit to 25 character) and limit is a number.
+The project contain a single API call(GET request) of the form-  http://address:port/api/v1/gyphi/location/limit/ - where “location” and “limit” are the parameters. Location is of type string (limit to 25 character) and limit is a number.
 
 The GET request will return the following response structure
 ```
