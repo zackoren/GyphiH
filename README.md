@@ -27,7 +27,7 @@ The GET request will return the following response structure
     {
         "place": "Washington Square South",
         "status": 200,
-        "giphy": [
+        "gyphi": [
             {
                 "title": "1962 GIF",
                 "images": "https://media1.giphy.com/media/YCcfpIMkBLySc/giphy.gif"
