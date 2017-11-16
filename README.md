@@ -4,10 +4,10 @@ GyphiH is an API to retrieve Gyphis from a list of locations. This Django based 
 
 ## Getting Started & Prerequisites
 1.	Requirements:
-a.	pip install django
-b.	pip install djangorestframework
-c.	pip install -U googlemaps
-d.	API Keys for both googlemaps and Gyph – create a ‘secret.txt’ file inside ‘api’ folder. The
+a.	DJANGO - pip install django,
+b.	RESTFRAMEWORK - pip install djangorestframework,
+c.	GOOGLEMAPS - pip install -U googlemaps, 
+d.	ACQUIRING API KEYS -  for both googlemaps and Gyph – > one should create a ‘secret.txt’ file inside ‘api’ folder. The
 Secret file should resemble:
 {
     "GOOGLE_API": "API_KEY",
