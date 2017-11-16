@@ -15,11 +15,11 @@ Secret file should resemble:
     "GYPHI_API": "API_KEY"
 }
 ```
- Then the backend can be launch using Django framework development server – manage.py runserver command.
+ Then the backend can be launch using Django framework development server –``` manage.py runserver``` command.
 
 
 ## GET request and response
-The project contain a single API call (GET request) -  ``` http://address:port/api/v1/gyphi/location/limit/``` - where “location” and “limit” are the parameters. Location is of type string (limit to 25 character) and limit is a number.
+The project contain a single API call (GET request) -  ``` http://address:port/api/v1/gyphi/location/limit/``` - where “location” and “limit” are parameters. Location is of type str (limit to 25 character) and limit is of type int.
 
 The GET request will return the following response structure
 ```
