@@ -50,11 +50,11 @@ def getGifs(list, limit, key):
     for place in list:
         jsonResponse = json.loads(
             urlopen(host + path.format(str(place).replace(' ', '+'), api_key, limit)).read().decode('utf-8'))
-        jsonArray.append({'place': place, 'status': jsonResponse['meta']['status'], 'giphy': []})
+        jsonArray.append({'place': place, 'status': jsonResponse['meta']['status'], 'gyphi': []})
         for gif in jsonResponse['data']:
             jsonObject = {}
             jsonObject['title'] = gif['title']
             jsonObject['images'] = gif['images']['original']['url']
-            jsonArray[index]['giphy'].append(jsonObject)
+            jsonArray[index]['gyphi'].append(jsonObject)
         index += 1
     return json.dumps(jsonArray)
