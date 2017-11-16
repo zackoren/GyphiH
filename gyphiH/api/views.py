@@ -6,10 +6,13 @@ import os
 
 @api_view(['GET'])
 def getGyphi(request, location, limit):
+    #Grabing secrets from files (api key)
     path = os.path.dirname(os.path.abspath(__file__)) + '\secret.txt'
     with open(path, 'r') as file:
         jsonObject = json.loads(file.read())
+    #Get locations list
     list = getPlaces(location, jsonObject['GOOGLE_API'])
+    #Get Gyphi from location
     jsonArray = json.loads(getGifs(list, limit, jsonObject['GYPHI_API']))
     return Response(jsonArray, status=HTTP_200_OK)
 
